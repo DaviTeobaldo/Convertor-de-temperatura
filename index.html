@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-uppercase fw-bolder mt-4 text-center">Conversor de escalas termométricas</h1>
+    <p class="text-center">Descubra as temperaturas correspondentes entre as escalas celsius e fahrenheit.</p>
+    <div class="d-flex flex-column justify-content-center align-items-center" style="gap: 30px;">
+        <input type="number" class="border-2 rounded-2 w-50 text-center" id="temperaturaCelsius" placeholder="Insira a temperatura em graus celsius">
+        <button id="btnConverter" type="button">Converter</button>
+        <img  class="rounded-3" style="width: 15rem; height: 15rem;" src="https://2.bp.blogspot.com/-z_szUlWQorg/VYTLxvZZVHI/AAAAAAAADuE/rT80zEk0c38/s1600/Convers%25C3%25A3o%2Bde%2BTemperatura.png" alt="">
+        <h4 id="resultado" class="text-center"></h4>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

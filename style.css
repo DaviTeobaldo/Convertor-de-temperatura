@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(to bottom, #253b69, #1431a8);
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
